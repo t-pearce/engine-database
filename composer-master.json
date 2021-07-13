@@ -1,0 +1,27 @@
+{
+    "name": "weirweb/engine-database",
+    "description": "Weirweb Engine - Database modeul",
+    "version": "1.0",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Engine\\Database\\": "src",
+            "Engine\\Database\\Test\\": "test"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Pearce",
+            "email": "github@tpearce.net"
+        }
+    ],
+    "require": {
+        "weirweb/engine": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../engine"
+        }
+    ]
+}
